@@ -1,0 +1,14 @@
+Polymorphism & Composition Homework - Quiz
+
+Polymorphism
+1. What does the word 'polymorphism' mean? - from the Greek meaning "having multiple forms" 
+2. What does it mean when we apply polymorphism to OO design? Give a simple Java example. Polymorphism in OO design happens when a parent class reference (e.g. Room) is used to refer to a child class object(e.g. Bedroom).  public class BedRoom extends Room  
+3. What can we use to implement polymorphism in Java? Polymorphism is implemented using parent and child classes, where the child “extends” the parent class.  Sometimes the parent classes is “abstract” meaning that no instance of that class can be created.  
+4. How many 'forms' can an object take when using polymorphism? As many as you create.  
+5. Give an example of when you could use polymorphism. Polymorphism would be used when modelling two or more object with similar properties. e.g. a tiger, lion, wolf, etc. could be child classes of the parent class animal.  
+
+Composition
+6. What do we mean by 'composition' in reference to object-oriented programming? Composition uses interfaces to enforce methods that the class must use.  
+7. When would you use composition? Provide a simple example in Java. Composition would be used when modelling two of more objects with the same properties.    
+8. What is/are the advantage(s) of using composition? A class can “implement’ one or more interfaces however it can also extend a single parent class.  
+9. What happens to the behaviours when the object composed of them is destroyed? Not sure I understand the question.  The behaviours held in the interface should persist regardless of the lifespan of the object (I think).
